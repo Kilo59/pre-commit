@@ -12,3 +12,4 @@
 coverage-html
 dist
 .pytest_cache
+/.vscode

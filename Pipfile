@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+"pre_commit" = {path = ".", editable = true}
+coverage="*"
+flake8="*"
+mock="*"
+pytest="*"
+pytest-env="*"
+
+[requires]
+python_version = "3.7"

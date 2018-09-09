@@ -4,6 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+cached-property="*"
+cfgv="*"
+identify="*"
+nodeenv="*"
+pyyaml="*"
+six="*"
+toml="*"
+virtualenv="*"
 
 [dev-packages]
 "pre_commit" = {path = ".", editable = true}
